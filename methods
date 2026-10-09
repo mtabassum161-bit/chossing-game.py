@@ -1,0 +1,21 @@
+numbers = {10, 20, 30, 40}
+
+print("Original set:", numbers)
+
+numbers.add(50)
+print("After add:", numbers)
+
+numbers.update([60, 70])
+print("After update:", numbers)
+
+numbers.remove(20)
+print("After remove:", numbers)
+
+numbers.discard(100)
+print("After discard:", numbers)
+
+numbers.pop()
+print("After pop:", numbers)
+
+numbers.clear()
+print("After clear:", numbers)
